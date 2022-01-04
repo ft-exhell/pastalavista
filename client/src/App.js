@@ -27,7 +27,7 @@ const App = () => {
 
   return(
     <div>
-      <h1>Pastalavista</h1>
+      <h1>Pastapedia</h1>
       <h2>The meme dictionary of web3</h2>
       {!account && renderNotConnected()}
       {account && renderConnected()}
